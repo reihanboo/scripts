@@ -1,0 +1,12 @@
+# this file should be put in `/etc/apt/sources.list`
+# don't just put links here without prior research. those links will allow downloads from other links.
+# cheers from reihan
+
+deb http://deb.debian.org/debian bullseye main
+deb-src http://deb.debian.org/debian bullseye main
+
+deb http://deb.debian.org/debian-security/ bullseye-security main
+deb-src http://deb.debian.org/debian-security/ bullseye-security main
+
+deb http://deb.debian.org/debian bullseye-updates main
+deb-src http://deb.debian.org/debian bullseye-updates main
